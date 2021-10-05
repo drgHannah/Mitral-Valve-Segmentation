@@ -51,7 +51,7 @@ recallVideo = {};
 accuracyVideo = {};
 
 % For every video
-for vid = 1:nrVideos %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%HANNAH TDOD 1
+for vid = 1:nrVideos 
     
     % Precision, recall, accuracy, id - for each individual video
     percentagePrecision = zeros(1,size(comb.params,2));
@@ -160,7 +160,7 @@ for vid = 1:nrVideos %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%HANNAH TDOD 1
             
             
             % Get Precision and Time
-            [prec,recall,accuracy] = compareMasks(groundTruthMask, result.M); % TODOOOOOOOOOOOOOOOOOOOOOO ACHTUNG
+            [prec,recall,accuracy] = compareMasks(groundTruthMask, result.M);
             %[prec,recall,accuracy] = compareMasksOriginal(result.M, splitname{1});
             percentagePrecision(param) = prec;
             percentageRecall(param) = recall;
@@ -386,7 +386,7 @@ end
 function saveResults(accuracyEachVideo, recallEachVideo, precisionEachVideo, parameterValuesNames, nameTable,method)
 
     % For each Video
-    for vid = 1:size(precisionEachVideo,2) %%%%%%%%%%%%%%%%%%%%HANNAH
+    for vid = 1:size(precisionEachVideo,2) 
         
         
         % Multiple Time Video Name
