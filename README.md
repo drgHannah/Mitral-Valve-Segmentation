@@ -1,7 +1,7 @@
 
 ![](valve_image.png)
 # Mitral Valve Segmentation using Robust Nonnegative Matrix Factorization
-This repository is the official MATLAB implementation of Mitral Valve Segmentation using Robust Nonnegative Matrix Factorization (link follows).
+This repository is the official MATLAB implementation of [Mitral Valve Segmentation using Robust Nonnegative Matrix Factorization](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8541511/).
 
 Some results of the proposed methods are shown in: https://drive.google.com/drive/folders/1Scpy54x0-_zXpP3bXZIYJPitN2kMUyB1?usp=sharing
 
